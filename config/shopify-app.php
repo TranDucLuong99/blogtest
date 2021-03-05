@@ -208,7 +208,7 @@ return [
     'webhooks' => [
         [
             'topic' => env('SHOPIFY_WEBHOOK_1_TOPIC', 'app/uninstalled'),
-            'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'https://www.ndnapps.com/ndnapps/dev/productreviews/webhook/app-uninstalled')
+            'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'http://duongtv.ngrok.io/webhook/app-uninstalled')
         ],
     ],
 
@@ -225,7 +225,7 @@ return [
     'scripttags' => [
         
             [
-                'src' => env('SHOPIFY_SCRIPTTAG_1_SRC', 'https://www.ndnapps.com/ndnapps/dev/productreviews/js/frontend/productreviews_scripttag.js'),
+                'src' => env('SHOPIFY_SCRIPTTAG_1_SRC', 'http://duongtv.ngrok.io/js/frontend/product_tab_scripttag.js'),
                 'event' => env('SHOPIFY_SCRIPTTAG_1_EVENT', 'onload'),
                 'display_scope' => env('SHOPIFY_SCRIPTTAG_1_DISPLAY_SCOPE', 'online_store')
             ],

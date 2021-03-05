@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Providers;
-use App\Category;
+
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,10 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('backend.v2.product.index', function ($view){
-            $loai_sp = Category::all();
-            $view->with('loai_sp', $loai_sp);
-        });
+        //
     }
 
     /**

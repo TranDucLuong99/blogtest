@@ -28,7 +28,7 @@
                 	<div class="row">
                         <div class="col-md-12">
                             <div class="main-card mb-3 card">
-                                <div class="card-header">Trang Chủ
+                                <div class="card-header">Manage Reviews
                                     <div class="btn-actions-pane-right">
                                         <div role="group" class="btn-group-sm btn-group">
 									        <button class="add-modal btn btn-primary">

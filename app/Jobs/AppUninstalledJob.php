@@ -15,7 +15,7 @@ class AppUninstalledJob extends \OhMyBrew\ShopifyApp\Jobs\AppUninstalledJob
         $this->cleanShop();
         $this->softDeleteShop();
         $this->cancelCharge();
-        //$this->sendMailUninstallApp();
+        $this->sendMailUninstallApp();
 
     	return true;
     }
